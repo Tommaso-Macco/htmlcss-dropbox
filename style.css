@@ -196,7 +196,7 @@ nav {
     padding-bottom: 15px;
 }
 
-/* ALTRA SEZIONE  */
+/*  FLOAT ELEMENT RULES GENERAL FOR ALL  */
 
 .mainfloatsection {
     border-left: 2px solid #d0d0d3;
@@ -239,8 +239,7 @@ nav {
 .buttonmain {
     color: #fff;
     font-weight: 900;
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px;  
 }
 
 .buttoncontainer {
@@ -273,12 +272,32 @@ nav {
     font-weight: 900;
 }
 
-
-
 .fontweight {
     font-weight: 900;
 }
 
 .row1 {
     height: 2000px;
+}
+
+/* PARTE ORRIZONTALE SECTION1 */
+
+.conteinermargin {
+    border-left: 2px solid #d0d0d3;
+    border-right: 2px solid #d0d0d3;
+    border-bottom: 2px solid #d0d0d3;
+}
+
+#button-sell {
+    text-align: right;
+    width: 50%;
+}
+
+#title-enterprise {
+    text-align: left;
+    width: 50%;
+}
+
+.test {
+    width: 100%;
 }

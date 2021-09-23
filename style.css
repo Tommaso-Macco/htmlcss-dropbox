@@ -34,7 +34,6 @@ a {
 nav {
     height: 90px;
     /* DEBUG */
-    background-color: blueviolet;
 }
 
 .clnav1, .clnav2, .clnav3, .clnav4, .clnav5, .clnav6, .clnav7, .clnav8 {
@@ -53,7 +52,7 @@ nav {
 .clnav5>a {
     color: #fff;
     padding: 7px 20px 7px 20px;
-    background-color: blue;
+    background-color: #0061ff;
 }
 
 .clnav1>img {
@@ -84,11 +83,55 @@ nav {
 
 .jumbotron {
     padding-top: 100px;
-    height: 500px;
     background-color: #b4d0e7;
 }
 
 .marginauto1>h1 {
     font-size: 85px;
+    font-weight: 700;
+}
+
+.jumbocl1, .jumbocl2 {
+    padding-top: 50px;
+}
+
+.jumbocl1 {
+    float: left;
+    width: 30%;
+}
+
+.jumbocl2 {
+    float: right;
+    width: 70%;
+    padding-left: 80px;
+}
+
+.jumbocl2>img {
+    width: 100%;
+}
+
+.jumbocl1>p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.buttonclassic {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+.buttonclassic>a {
+    background-color: #0061ff;
+    color: #fff;
+    padding: 10px 17px 10px 17px;
     font-weight: 900;
+}
+
+.jumbocl1>h4 {
+    margin-bottom: 60px;
+}
+
+.jumbocl1>.uno {
+    font-size: 50px;
 }

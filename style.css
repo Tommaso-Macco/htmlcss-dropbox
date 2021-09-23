@@ -135,3 +135,119 @@ nav {
 .jumbocl1>.uno {
     font-size: 50px;
 }
+
+
+/* MAIN */
+
+.marginauto70 {
+    width: 70%;
+    margin: 200px auto;
+}
+
+#titlesection1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.containersection1>input {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    padding-right: 50px;
+    width: 20px;
+}
+
+.inputtext {
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+/* FLOAT SECTION 1 RULES */
+
+.column1, .column2, .column3 {
+    float: left;
+    width: calc(100% / 3);
+    background-color: #fff;
+    
+}
+
+.column1 {
+    padding-right: 50px;
+}
+
+
+
+.column2 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.column3 {
+    padding-left: 50px;
+}
+
+.row {
+    border: 2px solid #d0d0d3;
+    text-align: center;
+}
+
+.far {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* ALTRA SEZIONE  */
+
+.mainfloatsection {
+    border-left: 2px solid #d0d0d3;
+    border-right: 2px solid #d0d0d3;
+    border-bottom: 2px solid #d0d0d3;
+}
+
+.marginauto90 {
+    width: 90%;
+    margin: auto;
+}
+
+.maintitltesection>h3 {
+    padding-top: 50px;
+    font-size: 25px ;
+    font-weight: 900;
+}
+
+.price {
+    padding-top: 15px;
+    font-size: 17px ;
+    font-weight: 900;
+}
+
+.month {
+    color: #667683;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+h4>.fa-user, h4>.fa-folder {
+    font-weight: 900;
+}
+
+.maininfosection {
+    margin-bottom: 50px;
+}
+
+.buttonmain {
+    color: #fff;
+    font-weight: 900;
+    margin-bottom: 40px;
+    
+}
+
+.buttoncontainer {
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: #0061ff;
+    padding: 10px 0 10px 0;
+}
+
+.acquistaora {
+    color: #0061ff;
+}

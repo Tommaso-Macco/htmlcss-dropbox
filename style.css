@@ -191,7 +191,7 @@ nav {
     text-align: center;
 }
 
-.far {
+.far, .fas {
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -226,12 +226,6 @@ nav {
     color: #667683;
     padding-top: 15px;
     margin-bottom: 50px;
-}
-
-.month-more {
-    color: #667683;
-    padding-top: 15px;
-    margin-bottom: 73px;
 }
 
 .maininfosection {

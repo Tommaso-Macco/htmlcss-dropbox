@@ -1,0 +1,94 @@
+/* general settings */
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+.marginauto1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+
+
+/* NAV */
+
+nav {
+    height: 90px;
+    /* DEBUG */
+    background-color: blueviolet;
+}
+
+.clnav1, .clnav2, .clnav3, .clnav4, .clnav5, .clnav6, .clnav7, .clnav8 {
+    line-height: 90px;
+    font-weight: 900;
+}
+
+.clnav2>a, .clnav3>a, .clnav4>a, .clnav5>a, .clnav6>a, .clnav7>a, .clnav8>a {
+    vertical-align: middle;
+} 
+
+.clnav2>a, .clnav3>a, .clnav4>a, .clnav6>a, .clnav7>a, .clnav8>a {
+    color: black;
+}
+
+.clnav5>a {
+    color: #fff;
+    padding: 7px 20px 7px 20px;
+    background-color: blue;
+}
+
+.clnav1>img {
+    vertical-align: middle;
+}
+
+
+.clnav1, .clnav2, .clnav3, .clnav4 {
+    float: left;
+    padding-right: 40px;
+}
+
+
+.clnav5, .clnav6, .clnav7, .clnav8 {
+    float: right;
+    padding-left: 40px;
+}
+
+.clnav1 {
+    margin-left: 20px;
+}
+
+.clnav5 {
+    margin-right: 20px;
+}
+
+/* JUMBOTRON */
+
+.jumbotron {
+    padding-top: 100px;
+    height: 500px;
+    background-color: #b4d0e7;
+}
+
+.marginauto1>h1 {
+    font-size: 85px;
+    font-weight: 900;
+}

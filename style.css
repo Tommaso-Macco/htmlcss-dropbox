@@ -25,6 +25,16 @@ a {
     margin: 0 auto;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.floatright {
+    float: right;
+}
+
 /* HEADER */
 
 
@@ -84,6 +94,7 @@ nav {
 .jumbotron {
     padding-top: 100px;
     background-color: #b4d0e7;
+    height: 795px;
 }
 
 .marginauto1>h1 {
@@ -139,6 +150,8 @@ nav {
 
 /* MAIN */
 
+/* SECTION 1 */
+
 .marginauto70 {
     width: 70%;
     margin: 200px auto;
@@ -189,11 +202,8 @@ nav {
 .row {
     border: 2px solid #d0d0d3;
     text-align: center;
-}
-
-.far, .fas {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 /*  FLOAT ELEMENT RULES GENERAL FOR ALL  */
@@ -232,8 +242,9 @@ nav {
     margin-bottom: 50px;
 }
 
-.maininfosection-more {
-    margin-bottom: 50px;
+.listsection1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .buttonmain {
@@ -276,10 +287,6 @@ nav {
     font-weight: 900;
 }
 
-.row1 {
-    height: 2000px;
-}
-
 /* PARTE ORRIZONTALE SECTION1 */
 
 .conteinermargin {
@@ -288,16 +295,26 @@ nav {
     border-bottom: 2px solid #d0d0d3;
 }
 
-#button-sell {
-    text-align: right;
-    width: 50%;
+.horizonatal-section1 {
+    padding-top: 50px;
 }
 
-#title-enterprise {
-    text-align: left;
-    width: 50%;
+.horizonatal-section1>a {
+    padding: 10px 80px 10px 80px;
+    background-color: #0061ff;
+    margin-top: 20px;
+    color: #fff;
 }
 
-.test {
-    width: 100%;
+.horizonatal-section1>h1 {
+    font-size: 35px;
+}
+
+.horizonatal-section1>h5 {
+    padding-bottom: 40px;
+}
+
+.titlemargin {
+    margin-top: 20px;
+    margin-bottom: 40px;
 }

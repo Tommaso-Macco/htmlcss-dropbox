@@ -358,3 +358,32 @@ nav {
 }
 
 /* MAIN SECTION3 */
+
+#main-title-section3 {
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+.rowsection3 {
+    margin-bottom: 60px;
+}
+
+.mainsection3 {
+    width: calc(100% / 3);
+    padding: 40px;
+}
+
+.image-mainsec3>img{
+    width: 100%;
+}
+
+.title-mainsec3>h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#underlinedecoration {
+    text-decoration: underline;
+}
+
+/* MAIN SECTION4 */
+

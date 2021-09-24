@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 
-.marginauto1 {
+.marginauto80 {
     width: 80%;
     margin: 0 auto;
 }
@@ -33,6 +33,10 @@ ul {
 
 .floatright {
     float: right;
+}
+
+.floatleft {
+    float: left;
 }
 
 /* HEADER */
@@ -318,3 +322,39 @@ nav {
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
+
+/* MAIN SECTION2 */
+
+.cldx55 {
+    width: 55%;
+}
+
+.clsx45 {
+    width: 45%;
+    padding: 40px 0 0 40px;
+}
+
+.cldx55>img {
+    width: 100%;
+}
+
+.clsx45>h2 {
+    font-size: 30px;
+    padding-bottom: 40px;
+    font-weight: 900;
+}
+
+.clsx45>p {
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.clsx45 a {
+    font-size: 18px;
+    border: 3px solid hsl(0deg 0% 30%);
+    padding: 8px;
+    color: black
+}
+
+/* MAIN SECTION3 */

@@ -603,3 +603,43 @@ nav {
     color: black;
     font-weight: 900;
 }
+
+/* SECTION 6 */
+
+.containersection6 {
+    height: 200px;
+    margin-top: 150px;
+}
+
+.section6maintitle {
+    font-size: 30px;
+}
+
+.maincontent {
+    border-top: 2px solid #dcdcde;
+}
+
+.margintop {
+    margin-top: 50px;
+}
+
+.maincontent h4 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: inline-block;
+}
+
+.maintextsection6 {
+    width: 60%;
+}
+
+.arrowbottom {
+    width: 39%;
+    text-align: right;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.borderbottom {
+    border-bottom: 2px solid #dcdcde;
+}

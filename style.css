@@ -580,13 +580,26 @@ nav {
 
 .containersection5 {
     background-color: #b4d0e7;
-    height: 300px;
 }
 
 .textsection5 {
-    line-height: 300px;
-    vertical-align: middle;
-    font-size: 20px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    font-size: 30px;
     width: 50%;
+    color: #61082b;
 }
 
+.buttonsection5 {
+    width: 50%;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    text-align: right;
+}
+
+.buttonsection5  a {
+    padding: 8px 70px 8px 70px;
+    background-color: #fff;
+    color: black;
+    font-weight: 900;
+}

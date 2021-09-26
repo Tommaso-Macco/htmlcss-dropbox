@@ -39,6 +39,15 @@ ul {
     float: left;
 }
 
+.relative {
+    position: relative;
+}
+
+.marginauto60 {
+    width: 60%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 
 
@@ -369,7 +378,7 @@ nav {
 
 .mainsection3 {
     width: calc(100% / 3);
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 .image-mainsec3>img{
@@ -385,5 +394,199 @@ nav {
     text-decoration: underline;
 }
 
+.mainsection3-left {
+    padding-right: 30px;
+}
+
+.mainsection3-right {
+    padding-left: 30px;
+}
+
+
+.mainsection3-center {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
 /* MAIN SECTION4 */
+
+.main-titlesec4>h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.main-titlesec4>a {
+    color: #0061ff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* FLOAT SECTION */
+
+/* .image-box {
+    width: 15%;
+    height: 259px;
+    float: left;
+}
+
+
+.text-box {
+    width: 40%;
+    float: left;
+    height: calc(259px * 2);
+    background-color: cyan;
+} */
+/* BOX COLOR */
+.designit {
+    background-color: #a2d39b;
+    border: 10px solid #d0e9cd;
+    width: 50%;
+    height: 50%;
+}
+
+.arizona {
+    background-color: #61082b;
+    width: 50%;
+    height: 50%;
+}
+
+.bicycle {
+    background-color: #d5001f;
+    width: 50%;
+    height: 50%;
+}
+
+.hearst {
+    background-color: #b4d0e7;
+    width: 50%;
+    height: 50%;
+}
+
+.florida {
+    background-color: #0093ce;
+    width: 50%;
+    height: 50%;
+}
+
+.topps {
+    background-color: #ff1c1c;
+    width: 50%;
+    height: 50%;
+}
+
+.lonely {
+    background-color: #0d2481;
+    width: 50%;
+    height: 50%;
+}
+
+.outdoor {
+    background-color: #ffd830;
+    width: 50%;
+    height: 50%;
+}
+
+
+/* POSITION ABSOLUTE ELEMENT */
+
+.designit>img {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arizona>img {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bicycle>img {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hearst>img {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.florida>img {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topps>img {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.lonely>img {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.outdoor>img {
+    width: 60%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-box {
+    width: 30%;
+    height: calc(259px * 2);
+}
+.box-text {
+    width: 40%;
+    height: calc(259px * 2);
+    background-color: #f5f5f5;
+    overflow: scroll;
+}
+
+#image-boxtext {
+    width: 35%;
+    padding-top: 50px;
+}
+
+#finalsign {
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+
+/* SECTION 5 */
+
+.containersection5 {
+    background-color: #b4d0e7;
+    height: 300px;
+}
+
+.textsection5 {
+    line-height: 300px;
+    vertical-align: middle;
+    font-size: 20px;
+    width: 50%;
+}
 

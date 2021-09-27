@@ -55,7 +55,14 @@ ul {
 /* NAV */
 
 nav {
+    width: 100%;
     height: 90px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    border-bottom: 1px solid #d0d0d3;
+    z-index: 100;
     /* DEBUG */
 }
 
@@ -107,7 +114,8 @@ nav {
 .jumbotron {
     padding-top: 100px;
     background-color: #b4d0e7;
-    height: 795px;
+    height: 607px;
+    
 }
 
 .marginauto1>h1 {
@@ -185,6 +193,10 @@ nav {
 .inputtext {
     padding-right: 20px;
     font-size: 20px;
+}
+
+#fakeradio {
+    border: 5px solid #0061ff;
 }
 
 /* FLOAT SECTION 1 RULES */
@@ -496,6 +508,7 @@ nav {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .arizona>img {
@@ -504,6 +517,7 @@ nav {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .bicycle>img {
@@ -512,6 +526,7 @@ nav {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .hearst>img {
@@ -520,6 +535,7 @@ nav {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .florida>img {
@@ -528,6 +544,7 @@ nav {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .topps>img {
@@ -536,6 +553,7 @@ nav {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .lonely>img {
@@ -544,6 +562,7 @@ nav {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .outdoor>img {
@@ -552,6 +571,7 @@ nav {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .image-box {
@@ -637,6 +657,7 @@ nav {
     text-align: right;
     font-size: 20px;
     padding-right: 30px;
+    cursor: pointer;
 }
 
 .borderbottom {

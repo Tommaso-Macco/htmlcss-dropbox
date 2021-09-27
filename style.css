@@ -71,6 +71,10 @@ nav {
     font-weight: 900;
 }
 
+.clnav1:hover, .clnav2:hover, .clnav3:hover, .clnav4:hover, .clnav5:hover, .clnav6:hover, .clnav7:hover, .clnav8:hover {
+    border-bottom: 2px solid black;
+} 
+
 .clnav2>a, .clnav3>a, .clnav4>a, .clnav5>a, .clnav6>a, .clnav7>a, .clnav8>a {
     vertical-align: middle;
 } 
@@ -92,13 +96,13 @@ nav {
 
 .clnav1, .clnav2, .clnav3, .clnav4 {
     float: left;
-    padding-right: 40px;
+    margin-right: 40px;
 }
 
 
 .clnav5, .clnav6, .clnav7, .clnav8 {
     float: right;
-    padding-left: 40px;
+    margin-left: 40px;
 }
 
 .clnav1 {
@@ -164,8 +168,12 @@ nav {
     margin-bottom: 60px;
 }
 
-.jumbocl1>.uno {
+.jumbocl1 .uno {
     font-size: 50px;
+}
+
+#anchor {
+    color: black;
 }
 
 
@@ -434,21 +442,6 @@ nav {
     font-weight: 600;
 }
 
-/* FLOAT SECTION */
-
-/* .image-box {
-    width: 15%;
-    height: 259px;
-    float: left;
-}
-
-
-.text-box {
-    width: 40%;
-    float: left;
-    height: calc(259px * 2);
-    background-color: cyan;
-} */
 /* BOX COLOR */
 .designit {
     background-color: #a2d39b;
@@ -636,6 +629,7 @@ nav {
 
 .maincontent {
     border-top: 2px solid #dcdcde;
+    cursor: pointer;
 }
 
 .margintop {
@@ -663,6 +657,18 @@ nav {
 .borderbottom {
     border-bottom: 2px solid #dcdcde;
     margin-bottom: 150px;
+}
+
+.displaynone {
+    display: none;
+}
+
+.displaynone:hover {
+    display: inline-block;
+}
+
+.maincontent:hover + .displaynone {
+    display: inline-block;
 }
 
 /* FOOTER */

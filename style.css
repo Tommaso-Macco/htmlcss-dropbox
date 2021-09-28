@@ -67,7 +67,7 @@ nav {
 }
 
 .clnav1, .clnav2, .clnav3, .clnav4, .clnav5, .clnav6, .clnav7, .clnav8 {
-    line-height: 90px;
+    line-height: 87px;
     font-weight: 900;
 }
 
@@ -245,7 +245,8 @@ nav {
     border-left: 2px solid #d0d0d3;
     border-right: 2px solid #d0d0d3;
     border-bottom: 2px solid #d0d0d3;
-    height: 1100px;
+    min-height: 1100px;
+    max-height: 1500px;
 }
 
 .marginauto90 {
@@ -682,6 +683,11 @@ footer {
     padding-bottom: 20px;
     font-weight: 900;
 }
+
+.footertitle>a {
+    color: #fff;
+}
+
 
 .columnfooter1 {
     width: calc(100% / 5);
